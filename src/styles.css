@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+*,*::before,*::after{
+    
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+    
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+:root{
+    --light:#FAFBFC;
+    --dark:#020733;
+}
+.hidden{
+    display: none !important;
+}

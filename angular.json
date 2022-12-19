@@ -27,7 +27,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/customJs/html2pdf.js",
+              "src/assets/customJs/questions.js",
+              "src/assets/customJs/custom.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "45a39c0f-12d6-4d2b-a6e6-8da40299b22e"
   }
 }

@@ -1,0 +1,144 @@
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 20rem);
+    
+   
+    
+}
+
+.question-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+    
+}
+.continue-btn{
+    align-self: baseline !important;
+}
+
+
+.answer-box{
+    gap: 3rem;
+    align-items: baseline !important;
+}
+
+.main-title{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: .001em;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #595959;
+}
+.main-text{
+    font-size: 1.5rem;
+    color: #717171;
+    font-weight: 500;
+    line-height: 1.3em;
+    text-align:justify;
+    margin-bottom: 2rem;
+   
+}
+.btn-question,#btn-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3.2rem;
+    background-color: #036552;
+    color: #E6FFFA;
+    font-size: 2.5rem;
+    outline: none;
+    border: none;
+    
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+
+.main-logo{
+    max-width: 56rem;
+   
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* answerList */
+
+.main-title.answer-title{
+    text-align: left;
+    width: 100%;
+}
+.main-answer-ul{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 2rem;
+}
+.main-answer-li{
+    font-size: 2.5rem;
+}
+.main-answer-li a{
+    display: flex;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fa6c0636;
+    border: 2px solid #FA6C06;
+    border-radius: 1rem;
+    color: #FA6C06;
+    font-weight: 600;
+    
+}
+.answeredBg {
+    background-color: #fa6c066b !important;
+}
+
+.main-answer-li a:hover{
+    background-color: #fa6c066b;
+}
+
+
+.seperator{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: baseline !important;
+    flex-direction: column !important;
+    margin-top: 3rem !important;
+}
+.seperator-answer-Yes{
+    color: rgb(3,101,82);
+    font-weight: 600;
+}
+.seperator-answer-No{
+    color: #E67E26;
+    font-weight: 600;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-logo{
+        width: 100%;
+    }
+    .question-box{
+        width: 85%;
+        
+    }
+    .container{
+        height: calc(100vh - 8rem);
+    }
+   
+   
+}
